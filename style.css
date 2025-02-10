@@ -1,0 +1,35 @@
+/* Style book cards */
+.book {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px auto; /* Center the cards */
+    padding: 20px;
+    transition: transform 0.2s;
+    max-width: 400px; /* Set a max width */
+}
+
+.book:hover {
+    transform: translateY(-5px);
+}
+body {
+    background-color: #e8f5e9; /* Light green background */
+    color: #2e7d32; /* Dark green text */
+    font-family: Arial, sans-serif;
+}
+
+a {
+    color: #388e3c; /* Green links */
+}
+
+a:hover {
+    color: #1b5e20; /* Darker green on hover */
+}
+
+header, footer {
+    background-color: #2e7d32; /* Dark green background */
+    color: #fff; /* White text */
+    padding: 10px 0;
+    text-align: center;
+}
