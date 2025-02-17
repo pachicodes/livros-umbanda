@@ -14,10 +14,6 @@ function createBookCard(book) {
     title.textContent = book.title;
     card.appendChild(title);
 
-    const author = document.createElement('p');
-    author.textContent = `Author: ${book.author}`;
-    card.appendChild(author);
-
     const description = document.createElement('p');
     description.textContent = book.description;
     card.appendChild(description);
