@@ -1,5 +1,5 @@
 /* Style book cards */
-.book {
+.book-card {
     background: #fff;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -10,7 +10,7 @@
     max-width: 400px; /* Set a max width */
 }
 
-.book:hover {
+.book-card:hover {
     transform: translateY(-5px);
 }
 body {
